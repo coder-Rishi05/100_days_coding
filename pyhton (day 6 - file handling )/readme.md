@@ -54,12 +54,78 @@ def append_to_file(filename,data):
 
 
 def main():
-    
+
     name=input("Enter your data to append : ")
     append_to_file("file1.txt",name)
     print("file create successfully")
 
 
 main()
+
+```
+
+# reading data of file
+
+```
+def read_from_file(filename):
+    try:
+        f=open(filename,'r')
+        data = f.read()
+        print(data)
+        f.close()
+    except FileNotFoundError:
+        print("file not found")
+
+def main():
+    # name=input("Enter your data to append : ")
+    # append_to_file("file1.txt",name)
+    # print("file create successfully")
+    read_from_file("file1.txt")
+
+
+main()
+```
+
+# changing file name / rename
+
+import os
+
+def rename_file(oFileName,nFileName):
+try :
+os.rename(oFileName,nFileName)
+print ("file name changed successfully")
+except FileNotFoundError:
+print("file not found")
+
+def main():
+rename_file("name.txt","MyFile.txt") # read_from_file("file1.txt")
+
+main()
+
+Output: file name changed successfully
+
+
+
+# delete file  / rename
+
+
+```
+import os
+    
+
+def delete_file(fileName):
+    try :
+     os.remove(fileName)
+     print ("file removed successfully")
+    except FileNotFoundError:
+        print("file not found")
+
+def main():
+    delete_file("MyFile.txt")
+    # read_from_file("file1.txt")
+
+main()
+
+file removed successfully
 
 ```
