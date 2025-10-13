@@ -46,15 +46,15 @@ code example:
 
 ```
 
-
 def append_to_file(filename,data):
     f=open(filename,"a")
+    f.write("\n") #for extra line
     f.write(data)
     print("data appended successfully")
 
 
 def main():
-
+    
     name=input("Enter your data to append : ")
     append_to_file("file1.txt",name)
     print("file create successfully")
