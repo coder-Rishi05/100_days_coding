@@ -5,6 +5,7 @@ code
 ```
 class Stack {
   constructor() {
+    
     this.items = [];
   }
   push(element) {
