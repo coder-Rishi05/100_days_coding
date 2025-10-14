@@ -10,7 +10,7 @@ link : [Click here](<singly linked list (Day 1)/readme.md>)
 
 Day 2 : Python soft keyword.
 
-     <!-- link : [Click here](<singly linked list (Day 1)/readme.md>) -->
+link:[Click here]()
 
 
 Day 3 : Python walrus operator.
