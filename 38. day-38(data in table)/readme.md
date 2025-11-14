@@ -111,4 +111,4 @@ root.mainloop()
 
 I created learn project from mySirg Channel,
 
-vidio link : https://youtu.be/YP7xDYrgUr0?si=UrofVyNRs5zbSopP
+vidio link : https://youtu.be/YP7xDYrgUr0?si=xR2kKRWcR-wIrgqO
